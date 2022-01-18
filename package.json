@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "For users that need to keep track of a lot of information.",
   "main": "server.js",
+  "homepage": "https://miguelgarciacastro.github.io/Note_taker/",
   "scripts": {
     "start": "node server.js"
   },
