@@ -6,7 +6,7 @@
   "homepage": "https://miguelgarciacastro.github.io/Note_taker/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d main -d build",
     "start": "node server.js"
   },
   "author": "",
