@@ -5,12 +5,15 @@
   "main": "server.js",
   "homepage": "https://miguelgarciacastro.github.io/Note_taker/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "gh-pages": "^3.2.3",
     "mysql": "^2.16.0"
   }
 }
